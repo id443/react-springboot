@@ -1,5 +1,7 @@
-package com.herreriasjose.reactspringboot;
+package com.sma.reactspringboot.controller;
 
+import com.sma.reactspringboot.domain.Client;
+import com.sma.reactspringboot.repository.ClientRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

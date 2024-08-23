@@ -1,30 +1,3 @@
-# Pack your React frontend into a Spring Boot application
-
-
-![alt text](images/springboot-react-06.png)
-
-Spring Boot allows us to develop a full-fledge web application with all the functionalities in no time.
-
-On the other hand, React allows the developer to efficiently create large web applications that can change the displayed elements or data without reloading the page. A simple example of this would be what Facebook likes. The number of tastes can increase or decrease without having to reload the page. This method has made it very easy to build modern and complex user interfaces.
-
-The aim of this tutorial is to combine both technologies into a single production-ready JAR.
-
-## Prerequisites
-
-Basic knowledge of Spring Boot, React, NPM and Maven.
-
-I am using:
-
-    •  openjdk 10.0.2 
-    •  node v10.13.0
-    •  npm 6.4.1
-    •  create-react-app 2.1.1
-    •  maven 3.5.2
-
-      
-You do not need any IDE to perform the procedures indicated in this tutorial.
-
-
 ## The Basic Spring Boot Structure
 
 

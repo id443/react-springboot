@@ -1,0 +1,29 @@
+[{
+    "id": 1,
+    "name": "Movie1",
+    "Director": "Daneliya",
+    "ReleaseDate": "1957/01/01",
+    "genre":"Comedy"
+},
+{
+    "id": 2,
+    "name": "Movie2",
+    "Director": "Daneliya",
+    "ReleaseDate": "1957/01/01",
+    "genre":"Comedy"
+},
+{
+    "id": 3,
+    "name": "Movie2",
+    "Director": "Daneliya",
+    "ReleaseDate": "1957/01/01",
+    "genre":"Comedy"
+},
+{
+    "id": 4,
+    "name": "Movie2",
+    "Director": "Daneliya",
+    "ReleaseDate": "1957/01/01",
+    "genre":"Comedy"
+}
+]

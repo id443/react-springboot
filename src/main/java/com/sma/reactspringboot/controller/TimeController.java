@@ -1,4 +1,4 @@
-package com.sma.reactspringboot;
+package com.sma.reactspringboot.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
