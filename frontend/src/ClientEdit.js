@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { Button, Container, Form, FormGroup, Input, Label } from 'reactstrap';
-import AppNavbar from './AppNavbar';
 import {
-  useLocation,
-  useNavigate,
-  useParams,
-} from "react-router-dom";
+    Link, useLocation,
+    useNavigate,
+    useParams
+} from 'react-router-dom';
+import { Button, Container, Form, FormGroup, Input, Label } from 'reactstrap';
+import AppNavbar from './components/AppNavbar';
 
 class ClientEdit extends Component {
 

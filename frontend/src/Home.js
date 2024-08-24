@@ -4,10 +4,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Container } from 'reactstrap';
 import './App.css';
-import AppNavbar from './AppNavbar';
-import ProgressBar from "./ProgressBar";
+import AppNavbar from './components/AppNavbar';
+import ProgressBar from "./components/ProgressBar";
+import SearchComponent from './components/SearchComponent';
 import Data from "./resources/Data.json";
-import SearchComponent from './SearchComponent';
 
 class Home extends Component {
     

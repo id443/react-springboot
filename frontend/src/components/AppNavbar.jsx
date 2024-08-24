@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
-import {Navbar, NavbarBrand} from 'reactstrap';
-import {Link} from 'react-router-dom';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { Navbar, NavbarBrand } from 'reactstrap';
 
 export default class AppNavbar extends Component {
     constructor(props) {

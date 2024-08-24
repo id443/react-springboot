@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, ButtonGroup, Container, Table } from 'reactstrap';
-import AppNavbar from './AppNavbar';
+import AppNavbar from './components/AppNavbar';
 
 class ClientList extends Component {
 
