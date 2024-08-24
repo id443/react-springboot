@@ -22,8 +22,13 @@ import { Header } from "./components/Header";
 import { HomeFirstChild } from "./components/HomeFirstChild";
 import { HomeSecondChild } from "./components/HomeSecondChild";
 import { Mission } from "./components/Mission";
+import Sidebar from './components/Sidebar';
 import Vision from "./components/Vision";
 import Home from "./Home";
+import Analytics from './pages/Analytics';
+import Chats from './pages/Chats';
+import Tasks from './pages/Tasks';
+import { Team } from './pages/Team';
 
 Userfront.init("demo1234");
 
@@ -32,6 +37,7 @@ class App extends Component {
     return (
       <Router>
         <Header />
+         <Sidebar />
         <Routes>
           <Route path="/" exact={true} element={<Home />}>
             <Route path="child" element={<HomeFirstChild />} />
@@ -42,6 +48,10 @@ class App extends Component {
           <Route path="/home" element={<SingUpForm />} />
           <Route path="/login" element={<Login />} />
           <Route path="/reset" element={<PasswordReset />} />
+          <Route path='/team' element={<Team />} />            
+          <Route path='/tasks' element={<Tasks />} />    
+          <Route path='/chats' element={<Chats />} />
+          <Route path='/analytics' element={<Analytics />} />
           <Route
             path="/dashboard"
             element={
