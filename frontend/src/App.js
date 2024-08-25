@@ -28,7 +28,7 @@ import Home from "./Home";
 import Analytics from './pages/Analytics';
 import Chats from './pages/Chats';
 import Tasks from './pages/Tasks';
-import { Team } from './pages/Team';
+import Team from './pages/Team';
 
 Userfront.init("demo1234");
 
