@@ -1,9 +1,7 @@
 import Userfront, {
   LoginForm,
   PasswordResetForm,
-  SignupForm,
 } from "@userfront/toolkit/react";
-
 import React, { Component } from "react";
 import {
   Navigate,
@@ -22,9 +20,9 @@ import { Header } from "./components/Header";
 import { HomeFirstChild } from "./components/HomeFirstChild";
 import { HomeSecondChild } from "./components/HomeSecondChild";
 import { Mission } from "./components/Mission";
-import Sidebar from './components/Sidebar';
 import Vision from "./components/Vision";
 import Home from "./Home";
+import SingUpForm from "./loginForms/SingUpForm.jsx";
 import Analytics from './pages/Analytics';
 import Chats from './pages/Chats';
 import Tasks from './pages/Tasks';
@@ -37,7 +35,7 @@ class App extends Component {
     return (
       <Router>
         <Header />
-         <Sidebar />
+         {/* <Sidebar /> */}
         <Routes>
           <Route path="/" exact={true} element={<Home />}>
             <Route path="child" element={<HomeFirstChild />} />
@@ -72,14 +70,7 @@ class App extends Component {
   }
 }
 
-function SingUpForm() {
-  return (
-    <div>
-      <h2>Sing Up form</h2>
-      <SignupForm />
-    </div>
-  );
-}
+
 
 function Login() {
   return (

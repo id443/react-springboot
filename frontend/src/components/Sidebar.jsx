@@ -42,7 +42,7 @@ const Navbar = styled.div`
     background-color: #000080;
 `
 
-const MenuIconOpen = styled(props => <Link {...props} />)`
+const MenuIconOpen = styled(Link)`
     display: flex;
     justify-content: start;
     font-size: 1.5rem;
@@ -50,7 +50,7 @@ const MenuIconOpen = styled(props => <Link {...props} />)`
     color: #ffffff;
 `
 
-const MenuIconClose = styled(props => <Link {...props} />)`
+const MenuIconClose = styled(Link)`
     display: flex;
     justify-content: end;
     font-size: 1.5rem;
