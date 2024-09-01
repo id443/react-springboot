@@ -1,7 +1,7 @@
 import React from "react";
 import { Collapsible } from './Collapsible';
 
-export const AboutCompany = () => {
+const About = () => {
     return (
         <div><h1>collapse</h1>
         <Collapsible/>
@@ -13,3 +13,5 @@ export const AboutCompany = () => {
         </div>
     )
 }
+
+export default About

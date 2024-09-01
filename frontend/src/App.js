@@ -13,8 +13,8 @@ import {
 import "./App.css";
 import ClientEdit from "./ClientEdit";
 import ClientList from "./ClientList";
-import { About } from "./components/About";
-import { AboutCompany } from "./components/AboutCompany";
+import About from "./components/About";
+import AboutCompany from "./components/AboutCompany";
 import { Contact } from "./components/Contact";
 import { Header } from "./components/Header";
 import { HomeFirstChild } from "./components/HomeFirstChild";
@@ -27,6 +27,7 @@ import Analytics from './pages/Analytics';
 import Chats from './pages/Chats';
 import Tasks from './pages/Tasks';
 import Team from './pages/Team';
+import RadioKnopka from "./raznyeElementy/RadioKnopka.jsx";
 
 Userfront.init("demo1234");
 
@@ -34,6 +35,7 @@ class App extends Component {
   render() {
     return (
       <Router>
+        <RadioKnopka/>
         <Header />
          {/* <Sidebar /> */}
         <Routes>
